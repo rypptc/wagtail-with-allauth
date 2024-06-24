@@ -1,0 +1,86 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.db
+*.DS_Store
+*.coverage
+.coverage.*
+.cache
+*.mo
+*.swp
+.sass-cache/
+Pipfile.lock
+
+# Wagtail
+# Ignore the local media files
+media/
+
+# Environment variables
+.env
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Build and distribution
+/dist/
+/build/
+/MANIFEST
+/wagtail.egg-info/
+/docs/_build/
+/storybook-static
+
+# Testing and caching
+.tox/
+.cache/
+/.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# JetBrains settings
+.idea/
+*.iml
+*.ipr
+*.iws
+coverage/
+
+# VS Code settings
+.vscode/
+
+# Backup files
+*.bak
+*.orig
+*.tmp
+
+# Test coverage reports
+htmlcov/
+.tox/
+noxfile.py
+nox/
+.coverage
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# MyPy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# MacOS
+.DS_Store
+
+# End of file
